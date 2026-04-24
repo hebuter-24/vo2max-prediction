@@ -1,0 +1,24 @@
+# ============================================================
+# VO2max Prediction System - 依赖清单
+# ============================================================
+# 使用 pip install -r requirements.txt 安装
+
+# Web 框架
+streamlit==1.38.0
+
+# 数据处理
+pandas==2.2.2
+numpy==1.26.4
+
+# 机器学习
+scikit-learn==1.5.1
+xgboost==2.0.3
+joblib==1.4.2
+
+# 数据库（轻量使用，无需额外安装）
+
+# 可视化
+plotly==5.22.0
+
+# PyInstaller 打包工具（仅打包时需要）
+pyinstaller==6.11.1
